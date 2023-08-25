@@ -1,0 +1,519 @@
+{
+    "application": {
+        "apType": "ovs",
+        "authentication": "none",
+        "dpctl": "",
+        "enableWmediumd": "0",
+        "ipBase": "10.0.0.0/8",
+        "mode": "g",
+        "netflow": {
+            "nflowAddId": "0",
+            "nflowTarget": "",
+            "nflowTimeout": "600"
+        },
+        "openFlowVersions": {
+            "ovsOf10": "1",
+            "ovsOf11": "0",
+            "ovsOf12": "0",
+            "ovsOf13": "0"
+        },
+        "passwd": "",
+        "sflow": {
+            "sflowHeader": "128",
+            "sflowPolling": "30",
+            "sflowSampling": "400",
+            "sflowTarget": ""
+        },
+        "startCLI": "1",
+        "switchType": "ovs",
+        "terminalType": "xterm"
+    },
+    "aps": [
+        {
+            "number": "1",
+            "opts": {
+                "apIP": "",
+                "apType": "default",
+                "authentication": "none",
+                "channel": "1",
+                "controllers": [
+                    "c0"
+                ],
+                "hostname": "ap1",
+                "mode": "g",
+                "netflow": "0",
+                "nodeNum": 1,
+                "passwd": "",
+                "range": "100",
+                "sflow": "0",
+                "ssid": "ap1-ssid",
+                "wlans": 1
+            },
+            "x": "297.0",
+            "y": "43.0"
+        },
+        {
+            "number": "2",
+            "opts": {
+                "apIP": "",
+                "apType": "default",
+                "authentication": "none",
+                "channel": "1",
+                "controllers": [
+                    "c0"
+                ],
+                "hostname": "ap2",
+                "mode": "g",
+                "netflow": "0",
+                "nodeNum": 2,
+                "passwd": "",
+                "range": "100",
+                "sflow": "0",
+                "ssid": "ap2-ssid",
+                "wlans": 1
+            },
+            "x": "545.0",
+            "y": "38.0"
+        },
+        {
+            "number": "3",
+            "opts": {
+                "apIP": "",
+                "apType": "default",
+                "authentication": "none",
+                "channel": "1",
+                "controllers": [
+                    "c0"
+                ],
+                "hostname": "ap3",
+                "mode": "g",
+                "netflow": "0",
+                "nodeNum": 3,
+                "passwd": "",
+                "range": "100",
+                "sflow": "0",
+                "ssid": "ap3-ssid",
+                "wlans": 1
+            },
+            "x": "795.0",
+            "y": "38.0"
+        }
+    ],
+    "controllers": [
+        {
+            "opts": {
+                "controllerProtocol": "tcp",
+                "controllerType": "ref",
+                "hostname": "c0",
+                "remoteIP": "127.0.0.1",
+                "remotePort": 6653
+            },
+            "x": "69.0",
+            "y": "332.0"
+        }
+    ],
+    "hosts": [
+        {
+            "number": "1",
+            "opts": {
+                "hostname": "tod",
+                "nodeNum": 1,
+                "sched": "host"
+            },
+            "x": "235.0",
+            "y": "571.0"
+        },
+        {
+            "number": "2",
+            "opts": {
+                "hostname": "Actuators",
+                "nodeNum": 2,
+                "sched": "host"
+            },
+            "x": "153.0",
+            "y": "487.0"
+        },
+        {
+            "number": "3",
+            "opts": {
+                "hostname": "diagnosticServerTele",
+                "nodeNum": 3,
+                "sched": "host"
+            },
+            "x": "375.0",
+            "y": "585.0"
+        },
+        {
+            "number": "5",
+            "opts": {
+                "hostname": "CCU",
+                "nodeNum": 5,
+                "sched": "host"
+            },
+            "x": "527.0",
+            "y": "629.0"
+        },
+        {
+            "number": "6",
+            "opts": {
+                "hostname": "diagnosticServerNoTele",
+                "nodeNum": 6,
+                "sched": "host"
+            },
+            "x": "657.0",
+            "y": "711.0"
+        },
+        {
+            "number": "6",
+            "opts": {
+                "hostname": "telephone",
+                "nodeNum": 6,
+                "sched": "host"
+            },
+            "x": "267.0",
+            "y": "253.0"
+        },
+        {
+            "number": "8",
+            "opts": {
+                "hostname": "sensors",
+                "nodeNum": 8,
+                "sched": "host"
+            },
+            "x": "363.0",
+            "y": "221.0"
+        },
+        {
+            "number": "16",
+            "opts": {
+                "hostname": "speaker",
+                "nodeNum": 16,
+                "sched": "host"
+            },
+            "x": "487.0",
+            "y": "199.0"
+        },
+        {
+            "number": "16",
+            "opts": {
+                "hostname": "monitor",
+                "nodeNum": 16,
+                "sched": "host"
+            },
+            "x": "593.0",
+            "y": "155.0"
+        },
+        {
+            "number": "17",
+            "opts": {
+                "hostname": "cameras",
+                "nodeNum": 17,
+                "sched": "host"
+            },
+            "x": "681.0",
+            "y": "303.0"
+        },
+        {
+            "number": "2",
+            "opts": {
+                "hostname": "mediaServer",
+                "nodeNum": 2,
+                "sched": "host"
+            },
+            "x": "445.0",
+            "y": "121.0"
+        },
+        {
+            "number": "14",
+            "opts": {
+                "hostname": "DiagnosticServerDiTerra",
+                "nodeNum": 14,
+                "sched": "host"
+            },
+            "x": "819.0",
+            "y": "457.0"
+        },
+        {
+            "number": "14",
+            "opts": {
+                "hostname": "webServiceTrenitalia",
+                "nodeNum": 14,
+                "sched": "host"
+            },
+            "x": "827.0",
+            "y": "249.0"
+        },
+        {
+            "number": "14",
+            "opts": {
+                "hostname": "ledPanel",
+                "nodeNum": 14,
+                "sched": "host"
+            },
+            "x": "697.0",
+            "y": "181.0"
+        },
+        {
+            "number": "16",
+            "opts": {
+                "hostname": "DISremoteTerminal",
+                "nodeNum": 16,
+                "sched": "host"
+            },
+            "x": "695.0",
+            "y": "611.0"
+        },
+        {
+            "number": "17",
+            "opts": {
+                "hostname": "DriverInformationSystems",
+                "nodeNum": 17,
+                "sched": "host"
+            },
+            "x": "809.0",
+            "y": "541.0"
+        },
+        {
+            "number": "17",
+            "opts": {
+                "hostname": "attacker1",
+                "nodeNum": 17,
+                "sched": "host"
+            },
+            "x": "489.0",
+            "y": "757.0"
+        },
+        {
+            "number": "18",
+            "opts": {
+                "hostname": "attacker2",
+                "nodeNum": 18,
+                "sched": "host"
+            },
+            "x": "857.0",
+            "y": "175.0"
+        }
+    ],
+    "links": [
+        {
+            "dest": "switch1",
+            "opts": {},
+            "src": "diagnosticServerTele"
+        },
+        {
+            "dest": "switch1",
+            "opts": {},
+            "src": "CCU"
+        },
+        {
+            "dest": "switch1",
+            "opts": {},
+            "src": "diagnosticServerNoTele"
+        },
+        {
+            "dest": "switch2",
+            "opts": {},
+            "src": "telephone"
+        },
+        {
+            "dest": "switch2",
+            "opts": {},
+            "src": "sensors"
+        },
+        {
+            "dest": "switch2",
+            "opts": {},
+            "src": "speaker"
+        },
+        {
+            "dest": "switch2",
+            "opts": {},
+            "src": "monitor"
+        },
+        {
+            "dest": "switch2",
+            "opts": {},
+            "src": "cameras"
+        },
+        {
+            "dest": "switch2",
+            "opts": {},
+            "src": "mediaServer"
+        },
+        {
+            "dest": "switch2",
+            "opts": {},
+            "src": "r4"
+        },
+        {
+            "dest": "switch1",
+            "opts": {},
+            "src": "r4"
+        },
+        {
+            "dest": "ledPanel",
+            "opts": {},
+            "src": "switch2"
+        },
+        {
+            "dest": "switch1",
+            "opts": {},
+            "src": "Actuators"
+        },
+        {
+            "dest": "switch1",
+            "opts": {},
+            "src": "tod"
+        },
+        {
+            "dest": "ap1",
+            "opts": {},
+            "src": "sta1"
+        },
+        {
+            "dest": "ap2",
+            "opts": {},
+            "src": "sta2"
+        },
+        {
+            "dest": "ap3",
+            "opts": {},
+            "src": "sta3"
+        },
+        {
+            "dest": "switch2",
+            "opts": {},
+            "src": "ap1"
+        },
+        {
+            "dest": "switch2",
+            "opts": {},
+            "src": "ap2"
+        },
+        {
+            "dest": "switch2",
+            "opts": {},
+            "src": "ap3"
+        },
+        {
+            "dest": "DISremoteTerminal",
+            "opts": {},
+            "src": "switch1"
+        },
+        {
+            "dest": "DriverInformationSystems",
+            "opts": {},
+            "src": "switch1"
+        },
+        {
+            "dest": "DiagnosticServerDiTerra",
+            "opts": {},
+            "src": "switch1"
+        },
+        {
+            "dest": "switch1",
+            "opts": {},
+            "src": "attacker1"
+        },
+        {
+            "dest": "attacker2",
+            "opts": {},
+            "src": "switch2"
+        },
+        {
+            "dest": "switch2",
+            "opts": {},
+            "src": "webServiceTrenitalia"
+        }
+    ],
+    "stations": [
+        {
+            "number": "1",
+            "opts": {
+                "hostname": "sta1",
+                "mode": "g",
+                "nodeNum": 1,
+                "range": "100",
+                "sched": "station",
+                "wlans": 1,
+                "wpans": 0
+            },
+            "x": "215.0",
+            "y": "44.0"
+        },
+        {
+            "number": "2",
+            "opts": {
+                "hostname": "sta2",
+                "mode": "g",
+                "nodeNum": 2,
+                "range": "100",
+                "sched": "station",
+                "wlans": 1,
+                "wpans": 0
+            },
+            "x": "467.0",
+            "y": "38.0"
+        },
+        {
+            "number": "3",
+            "opts": {
+                "hostname": "sta3",
+                "mode": "g",
+                "nodeNum": 3,
+                "range": "100",
+                "sched": "station",
+                "wlans": 1,
+                "wpans": 0
+            },
+            "x": "711.0",
+            "y": "38.0"
+        }
+    ],
+    "switches": [
+        {
+            "number": "1",
+            "opts": {
+                "controllers": [
+                    "c0"
+                ],
+                "hostname": "switch1",
+                "netflow": "0",
+                "nodeNum": 1,
+                "sflow": "0",
+                "switchIP": "",
+                "switchType": "default"
+            },
+            "x": "475.0",
+            "y": "489.0"
+        },
+        {
+            "number": "4",
+            "opts": {
+                "controllers": [
+                    "c0"
+                ],
+                "hostname": "switch2",
+                "netflow": "0",
+                "nodeNum": 4,
+                "sflow": "0",
+                "switchIP": "",
+                "switchType": "default"
+            },
+            "x": "481.0",
+            "y": "297.0"
+        },
+        {
+            "number": "4",
+            "opts": {
+                "controllers": [],
+                "hostname": "r4",
+                "nodeNum": 4,
+                "switchType": "legacyRouter"
+            },
+            "x": "477.0",
+            "y": "395.0"
+        }
+    ],
+    "version": "2"
+}
