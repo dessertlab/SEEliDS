@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 # Time data in seconds
-secondi = [15,30,45,60,75,90,105,120,135,150,165,180,195,210,225,240,255,270,285,300]
+seconds = [15,30,45,60,75,90,105,120,135,150,165,180,195,210,225,240,255,270,285,300]
 
 # Packet count data per second
 count_values26 = [89,94,101,108,1440,99,110,102,113,110,1400,115,109,122,113,108,1360,102,108,115] 
@@ -10,10 +10,10 @@ count_values09 = [89,94,101,108,385,99,110,102,113,110,340,115,109,122,113,108,2
 count_values00 = [89,94,101,108,106,99,110,102,113,110,120,115,109,122,113,108,99,102,108,115]
 
 # Create graphs
-plt.plot(secondi, count_values09, label='35% CPU')
-plt.plot(secondi, count_values15, label='60% CPU')
-plt.plot(secondi, count_values26, label='100% CPU')
-plt.plot(secondi, count_values00, label='traffico benigno')
+plt.plot(seconds, count_values09, label='35% CPU')
+plt.plot(seconds, count_values15, label='60% CPU')
+plt.plot(seconds, count_values26, label='100% CPU')
+plt.plot(seconds, count_values00, label='Benign Traffic')
 
 # Set values on the x-axis
 plt.xticks([60, 120, 180, 240, 300])
