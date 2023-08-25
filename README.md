@@ -9,4 +9,4 @@ accepted to ReSAISE 2023: The 1st IEEE International Workshop on Reliable and Se
 # Introduction
 Toward the goal of promoting energy efficiency and reducing carbon footprint, we analyze the performance of a lightweight Intrusion Detection System (IDS) in the context of an embedded network. We constraint the CPU and memory usage to limit the power consumption of the IDS and assess its ability to detect Denial-of-Service (DoS) attacks, through a simulated environment in Mininet-Wifi. 
 
-             <img width="734" alt="image" src="https://github.com/dessertlab/SEEliDS/assets/110171734/4ee49bd6-c438-450c-a459-0e0f6d1f50ce">
+<img width="734" alt="image" src="https://github.com/dessertlab/SEEliDS/assets/110171734/4ee49bd6-c438-450c-a459-0e0f6d1f50ce">
