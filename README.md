@@ -1,7 +1,7 @@
 # SEEliDS
 
 This is the official implementation of the paper:
-**Simulation Environment for the Evaluation of Lightweight Intrusion Detection Systems**
+### Simulation Environment for the Evaluation of Lightweight Intrusion Detection Systems
 Simona De Vivo, Pietro Liguori
 
 accepted to ReSAISE 2023: The 1st IEEE International Workshop on Reliable and Secure AI for Software Engineering Co-located with ISSRE 2023
